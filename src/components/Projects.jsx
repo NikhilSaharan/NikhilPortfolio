@@ -4,7 +4,7 @@ import React from "react";
 
 import Music from '../assets/Music.png'
 import expensetracker from '../assets/expensetracker.png'
-
+import Color from '../assets/Color .png'
 import CartEase from '../assets/CartEase.png'
 import Footer from './Footer'
 
@@ -17,6 +17,10 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
 
             {title=='Online Music Player' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={Music} alt="" />
+            </a>}
+
+            {title=='Color Picker' && <a href="#">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={Color} alt="" />
             </a>}
 
             {title=='Expense Tracker' && <a href="#">
@@ -89,7 +93,15 @@ export const project = [
         image: {expensetracker},
         git:"https://expense-tracker-xi-lovat.vercel.app/",
         technologies:[ 'HTML' ,'CSS' , 'Javascript']
-    }
+    },
+
+    {
+        title:'Color Picker',
+        description:' Innovated a Color Picker Chrome extension that enables developers to select colors effortlessly while designing user interfaces, improving color selection speed by 80%   Technologies used - HTML, CSS, JavaScript',
+        image: {Color},
+        git:'https://color-picker-plum-nu.vercel.app/',
+        technologies:['HTML' ,'CSS' , 'Javascript']
+    },
 ]
 
 export default Projects
