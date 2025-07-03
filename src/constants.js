@@ -19,13 +19,13 @@ export const name = 'Nikhil Kumar';
 export const experiences = [
     {
         'company': 'SoftSynth Software Solutions',
-        'role': 'Frontend Developer',
-        'duration': 'Feb 2024 - Present',
+        'role': 'Junior Software Developer',
+        'duration': 'May 2024 - April 2025',
         'logo': 'https://media.licdn.com/dms/image/C560BAQGZ1BmJAedR2A/company-logo_200_200/0/1639371530480?e=2147483647&v=beta&t=4J_qLy7bFdEnP6y3buD2eJgAYb65obLrsnfXozhlFE8',
         'logoSrc': 'https://images.app.goo.gl/68wGowkGLWcY5y986', 
         'points': [
             ' Collaborate with the project team to understand the clients needs and objectives for the website. Gather requirements related to design, functionality, and user experience',
-            ' As a front-end developer, I specialize in React.js, delivering dynamic and user-centric web interfaces that exceed client expectations With a proven track record of collaborating seamlessly with cross-functional teams, I ensure optimal integration of front-end solutions with back-end systems. My commitment to quality, attention to detail, and effective communication skills make me avaluable asset in driving project success and maintaining client satisfaction.',
+            ' As a Software Developer, I specialize in React.js, delivering dynamic and user-centric web interfaces that exceed client expectations With a proven track record of collaborating seamlessly with cross-functional teams, I ensure optimal integration of front-end solutions with back-end systems. My commitment to quality, attention to detail, and effective communication skills make me avaluable asset in driving project success and maintaining client satisfaction.',
            
         ],
         'url': 'https://softsynthsoftware.com/',
