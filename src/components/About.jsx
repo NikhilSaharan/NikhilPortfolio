@@ -37,7 +37,7 @@ const About = () => {
               ✍️ Beyond coding, I stay in shape by regularly hitting the  <a className=' text-purple-300 hover:text-purple-400 duration-300'  target='_blank'>gym</a>, which not only helps me maintain my fitness but also motivates me to keep a balanced lifestyle and approach my work with renewed energy and focus.🌟</p>
 
             <ButtonLink
-              url='https://drive.google.com/file/d/1zD0YD-Ma8DJyl9tPN-EP1vXZmd1FpC1s/view?usp=drive_link'
+              url='https://drive.google.com/file/d/19Li3X7QCuOOK0wWttkscP24DPVkOC0ei/view?usp=drive_link'
               text='View Resume →'
               padding={`p-3`}
             />
