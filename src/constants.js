@@ -1,3 +1,4 @@
+import healthmugLogo from './assets/download.jpg';
 
 export const services = [
     {
@@ -18,15 +19,29 @@ export const name = 'Nikhil Kumar';
 
 export const experiences = [
     {
+        'company': 'HealthMug Private Limited',
+        'role': 'Software Developer',
+        'duration': 'Aug 2025 - Present',
+        'logo': healthmugLogo, // HealthMug logo
+        'logoSrc': 'https://images.app.goo.gl/68wGowkGLWcY5y986',
+        'points': [
+            ' Developed backend services in ASP.NET Core for the Franchisee Admin module, enabling real-time management of store locations, doctor schedules, and workforce operations.',
+            ' Optimized Entity Framework queries and implemented clean architecture to improve API performance and maintainability across franchisee operations.',
+            'Ensured secure and scalable delivery using RESTful APIs, automated testing, and CI/CD pipelines for faster,reliable deployments.',
+        ],
+        'url': 'https://www.healthmug.com',
+    },
+
+    {
         'company': 'SoftSynth Software Solutions',
         'role': 'Junior Software Developer',
-        'duration': 'May 2024 - April 2025',
+        'duration': 'Mar 2024 - Aug 2024',
         'logo': 'https://media.licdn.com/dms/image/C560BAQGZ1BmJAedR2A/company-logo_200_200/0/1639371530480?e=2147483647&v=beta&t=4J_qLy7bFdEnP6y3buD2eJgAYb65obLrsnfXozhlFE8',
-        'logoSrc': 'https://images.app.goo.gl/68wGowkGLWcY5y986', 
+        'logoSrc': 'https://images.app.goo.gl/68wGowkGLWcY5y986',
         'points': [
-            ' Collaborate with the project team to understand the clients needs and objectives for the website. Gather requirements related to design, functionality, and user experience',
-            ' As a Software Developer, I specialize in React.js, delivering dynamic and user-centric web interfaces that exceed client expectations With a proven track record of collaborating seamlessly with cross-functional teams, I ensure optimal integration of front-end solutions with back-end systems. My commitment to quality, attention to detail, and effective communication skills make me avaluable asset in driving project success and maintaining client satisfaction.',
-           
+            ' Developed a robust E-commerce platform, improving operational efficiency by 35tracking and payment modules built with ASP.NET Core and Entity Framework.',
+            '  Developed and maintained scalable web applications using ASP.NET Core (C#) on the backend and React.js on the frontend.',
+
         ],
         'url': 'https://softsynthsoftware.com/',
     },
@@ -56,7 +71,7 @@ export const experiences = [
         ],
         'url': 'https://www.infotrixs.in/',
     },
-]
+];
 
 
 
